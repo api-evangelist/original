@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: derived
+source: 'openapi:none; https://docs.bodygram.com/platform/api-reference'
+api: Bodygram Platform API
+standards:
+- id: oauth2
+  conforms: false
+  evidence: >-
+    Authentication is a static secret API key (bearer) plus a domain-restricted client
+    key, not an OAuth 2.0 authorization flow, though it does use permission scopes.
+- id: rfc9457
+  conforms: false
+  evidence: >-
+    No application/problem+json error format is documented; the public error reference
+    is noted as still being written.
+- id: pagination
+  conforms: false
+  evidence: No pagination scheme is documented for the current create/read scan operations.
+- id: idempotency
+  conforms: false
+  evidence: No idempotency-key header is documented.

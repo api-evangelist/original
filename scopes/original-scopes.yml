@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.bodygram.com/platform/api-reference
+docs: https://docs.bodygram.com/platform/api-reference
+api: Bodygram Platform API
+style: api-key permission scopes
+audience: api.platform.bodygram.com
+scopes:
+- name: api.platform.bodygram.com/scans:create
+  description: Create a body scan (submit stats and/or two photos for measurement).
+- name: api.platform.bodygram.com/scans:read
+  description: >-
+    Read a previously created scan's measurements, 3D avatar, and (when photos were
+    provided) body composition and posture data.
+notes: >-
+  Scopes are permission strings attached to Bodygram API keys, addressed to the
+  api.platform.bodygram.com audience; the API does not run a full OAuth 2.0
+  authorization-code flow.

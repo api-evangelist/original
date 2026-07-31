@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.bodygram.com/
+api: Bodygram Platform API
+versioning:
+  scheme: url/host prefix
+  current: v3 (Body2Fit SDK)
+  evidence: >-
+    The Body2Fit SDK is served from a versioned host (v3.body2fit.bodygram.com/sdk.js)
+    and Platform API resource paths are prefixed with /api.
+status_page:
+  present: false
+  evidence: >-
+    No public status page found (status.bodygram.com and status.platform.bodygram.com
+    do not resolve).
+deprecation_policy:
+  present: false
+  evidence: No published deprecation or RFC 8594 Sunset/Deprecation-header policy found in the docs.
+sla:
+  present: false
+  evidence: No public SLA document found.

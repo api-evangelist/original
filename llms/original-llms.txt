@@ -1,0 +1,21 @@
+# Bodygram
+
+> AI-powered body measurement platform. Bodygram extracts 35+ body measurements, body composition, posture data, and a 3D avatar from a smartphone photo or a person's basic stats, and offers a size-recommendation widget (Body2Fit) for retail and fashion.
+
+## API
+- [Platform API Reference](https://docs.bodygram.com/platform/api-reference): REST API to create body scans and issue scan tokens. Base host api.platform.bodygram.com; secret API key in the Authorization header; resources scoped to /api/orgs/{ORG_ID}/...
+- [Getting Started - Platform](https://docs.bodygram.com/platform): generate measurements and a 3D avatar from stats and two photos.
+
+## SDKs
+- [Body2Fit SDK](https://docs.bodygram.com/body2fit): browser size-recommendation widget loaded from https://v3.body2fit.bodygram.com/sdk.js
+- [Headless SDK](https://docs.bodygram.com/headless): embed the estimation engine (Vanilla HTML, React, Next.js, Vue)
+
+## Docs
+- [Documentation](https://docs.bodygram.com): product and integration documentation.
+
+## Company
+- [Website](https://bodygram.com)
+- [Pricing](https://platform.bodygram.com/pricing)
+- [Sign in](https://www.platform.bodygram.com/sign-in)
+- [GitHub](https://github.com/bodygram)
+- [Terms & Policies](https://bodygram.com/en/policies)

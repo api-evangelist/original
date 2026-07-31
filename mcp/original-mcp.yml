@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: derived
+source: https://docs.bodygram.com/platform/api-reference
+status: candidate
+api: Bodygram Platform API
+description: >-
+  No official hosted or remote MCP server was found for Bodygram. This is a candidate
+  tool list derived from the two documented Platform API operations.
+server:
+  name: bodygram-platform
+  transport: candidate
+tools:
+- name: create_scan
+  operation: POST /api/orgs/{ORG_ID}/scans
+  description: >-
+    Create a body scan from a person's stats and/or two photos; returns body
+    measurements, a 3D avatar, and (with photos) body composition and posture data.
+- name: create_scan_token
+  operation: POST /api/orgs/{ORG_ID}/scan-tokens
+  description: Issue a short-lived scan token authorizing the hosted Bodygram Scanner.
+scopes:
+- api.platform.bodygram.com/scans:create
+- api.platform.bodygram.com/scans:read

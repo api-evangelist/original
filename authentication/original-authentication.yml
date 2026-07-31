@@ -1,0 +1,41 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.bodygram.com/platform/api-reference
+docs: https://docs.bodygram.com/platform/api-reference
+api: Bodygram Platform API
+summary: >-
+  Server-to-server requests authenticate with a secret API key passed as a bearer
+  token in the Authorization header; every Platform resource path is scoped to an
+  Organization ID. Browser-side Body2Fit widgets authenticate with a domain-restricted
+  public clientKey instead of the secret key.
+schemes:
+- id: api-key
+  type: http
+  scheme: bearer
+  in: header
+  name: Authorization
+  first_party: true
+  description: >-
+    Secret API key issued from the Account page at platform.bodygram.com, sent as a
+    bearer token in the Authorization header for all server-side Platform API calls.
+- id: organization-id
+  type: apiKey
+  in: path
+  name: ORG_ID
+  description: >-
+    Organization identifier that scopes every /api/orgs/{ORG_ID}/... resource path.
+- id: scan-token
+  type: apiKey
+  in: header
+  name: Authorization
+  description: >-
+    Short-lived scan token (issued by POST /api/orgs/{ORG_ID}/scan-tokens) that
+    authorizes the hosted Bodygram Scanner from the browser without exposing the
+    secret API key.
+- id: client-key
+  type: apiKey
+  in: config
+  name: clientKey
+  first_party: true
+  description: >-
+    Domain-restricted public key that authenticates the browser-side Body2Fit widget.

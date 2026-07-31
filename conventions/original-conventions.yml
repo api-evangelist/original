@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.bodygram.com/platform/api-reference
+api: Bodygram Platform API
+base_url: https://api.platform.bodygram.com
+authentication:
+  style: bearer API key in the Authorization header
+  see: authentication/original-authentication.yml
+resource_scoping:
+  style: organization-scoped paths
+  pattern: /api/orgs/{ORG_ID}/...
+  description: Every Platform API resource is nested under an Organization ID.
+scopes:
+  style: api-key permission scopes
+  see: scopes/original-scopes.yml
+serialization:
+  request: application/json
+  response: application/json
+  binary: 3D avatar returned as a base64-encoded .obj file (format "obj")
+tokens:
+  scan_token: >-
+    POST /api/orgs/{ORG_ID}/scan-tokens issues a short-lived scan token used to
+    authorize the hosted Bodygram Scanner from the browser without exposing the
+    secret API key.
+operations:
+- POST /api/orgs/{ORG_ID}/scans
+- POST /api/orgs/{ORG_ID}/scan-tokens
+not_documented:
+- idempotency-keys
+- pagination
+- rate-limit-headers
+- field-expansion
+notes: >-
+  Idempotency keys, pagination, rate-limit signaling, and field-expansion conventions
+  are not documented in the public reference (the reference notes rate limits and
+  quotas as still being written); no idempotency or pagination pointer is asserted.

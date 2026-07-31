@@ -1,0 +1,38 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.bodygram.com/
+api: Bodygram Platform API
+packages:
+- name: Body2Fit SDK
+  language: JavaScript
+  kind: browser-sdk
+  official: true
+  registry: none
+  distribution: hosted-script
+  url: https://v3.body2fit.bodygram.com/sdk.js
+  docs: https://docs.bodygram.com/body2fit
+  description: >-
+    Browser SDK that embeds the Body2Fit size-recommendation widget. Instantiated
+    via the Body2FitSDK constructor with a domain-restricted clientKey; exposes
+    embed()/open() methods and ready/add-to-cart/close/supported events.
+- name: Bodygram Headless SDK
+  language: JavaScript
+  kind: browser-sdk
+  official: true
+  registry: none
+  distribution: hosted-script
+  docs: https://docs.bodygram.com/headless
+  frameworks:
+  - Vanilla HTML
+  - React
+  - Next.js
+  - Vue
+  description: >-
+    Headless JavaScript SDK that embeds Bodygram's estimation engine (scanner iframe,
+    event communication, validation, and API calls) without prescribing a UI, leaving
+    the interface design to the integrator.
+notes: >-
+  Bodygram distributes its client libraries as hosted script bundles rather than
+  through npm/PyPI/Maven/NuGet/RubyGems; no published package-registry entries were
+  found. The bodygram GitHub organization (github.com/bodygram) publishes one
+  open-source Go utility repository (lengths), not a client SDK.

@@ -1,0 +1,42 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.bodygram.com/
+api: Bodygram Platform API
+components:
+- family: Body2Fit
+  name: Body2Fit Size Widget
+  kind: embeddable-widget
+  loader: https://v3.body2fit.bodygram.com/sdk.js
+  config:
+  - clientKey
+  - brandId
+  - garmentSKU
+  - countryCode
+  - languageCode
+  - preferredMeasurementSystem
+  - slideInDirection
+  events:
+  - supported
+  - ready
+  - add-to-cart
+  - close
+  methods:
+  - embed
+  - open
+  docs: https://docs.bodygram.com/body2fit
+  description: >-
+    Drop-in size-recommendation widget for product pages; frontend-only (authenticated
+    by a domain-restricted clientKey). Returns a recommended garment size via the
+    add-to-cart event.
+- family: Platform
+  name: Bodygram Scanner (iframe)
+  kind: embedded-scanner
+  loader: Bodygram Headless SDK
+  docs: https://docs.bodygram.com/headless
+  description: >-
+    Iframe-based body scanner surface embedded via the Headless SDK. Captures the two
+    photos and drives the estimation engine, returning raw body measurements
+    (chest, waist, hips, inseam, etc.) to the integrator's backend.
+notes: >-
+  Client-side embeddable surfaces, distinct from the JavaScript SDK packages that load
+  them (see packages/original-packages.yml).
