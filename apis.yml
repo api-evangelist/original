@@ -34,6 +34,16 @@ modified: '2026-07-20'
 tags:
 - Company
 - Body Measurement
+- Computer-Vision
+- Artificial Intelligence
+- Sizing
+- Retail
+- 3D Avatar
+- Health
+- SDK
+tags_raw:
+- Company
+- Body Measurement
 - Computer Vision
 - Artificial Intelligence
 - Sizing
@@ -50,6 +60,10 @@ apis:
   humanURL: https://docs.bodygram.com/platform
   baseURL: https://api.platform.bodygram.com
   tags:
+  - Body Measurement
+  - Computer-Vision
+  - 3D Avatar
+  tags_raw:
   - Body Measurement
   - Computer Vision
   - 3D Avatar
