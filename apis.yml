@@ -47,7 +47,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Body Measurement
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Sizing
 - Retail
@@ -64,6 +64,7 @@ tags_raw:
 - 3D Avatar
 - Health
 - SDK
+- Computer-Vision
 apis:
 - name: Bodygram Platform API
   description: >-
@@ -74,12 +75,13 @@ apis:
   baseURL: https://api.platform.bodygram.com
   tags:
   - Body Measurement
-  - Computer-Vision
+  - Computer Vision
   - 3D Avatar
   tags_raw:
   - Body Measurement
   - Computer Vision
   - 3D Avatar
+  - Computer-Vision
   properties:
   - type: APIReference
     url: https://docs.bodygram.com/platform/api-reference
