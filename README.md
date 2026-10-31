@@ -1,4 +1,4 @@
-# Original
+# Bodygram
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Original is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Bodygram is an AI-powered body measurement company whose technology extracts 35+ body measurements, body composition, posture data, and a 3D avatar from a smartphone photo or a person's basic stats. The Bodygram Platform API and the Body2Fit and Headless JavaScript SDKs let retail, fashion, uniform, health, and wellness businesses embed accurate sizing and body scanning into their own apps and websites to increase conversion and reduce returns. Surfaced as a 500 Global portfolio company and enriched from Bodygram's public developer surface (docs.bodygram.com).
 
-Backed by: 500-global — https://bodygram.com
+**Areas:** Company · Body Measurement · Computer Vision · Artificial Intelligence · Sizing · Retail · 3D Avatar · Health · SDK
+
+## Bodygram on APIs.io
+
+Everything profiled for Bodygram is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/original/](https://apis.io/providers/original/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Bodygram Platform API](https://apis.io/apis/original/bodygram-platform-api/) — REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [bodygram-platform](https://apis.io/servers/original/bodygram-platform/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Original Authentication](https://apis.io/security/original/original-authentication/)
+- [Original Domain Security](https://apis.io/security/original/original-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Original Scopes](https://apis.io/scopes/original/original-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bodygram.com)
+- [Documentation](https://docs.bodygram.com)
+- [Getting started](https://docs.bodygram.com/platform)
+- [API reference](https://docs.bodygram.com/platform/api-reference)
+- [Pricing](https://platform.bodygram.com/pricing)
+- [Sign up](https://www.platform.bodygram.com/sign-in)
+- [Support](https://bodygram.com/en/contact-form)
+- [Blog](https://www.bodygram.com/en/press)
+- [Terms of service](https://bodygram.com/en/policies)
+- [GitHub](https://github.com/bodygram)
+
+## API Evangelist rating
+
+**Kin Score 27.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 23.7 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 27.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/original/](https://apis.io/providers/original/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bodygram: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/original/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
